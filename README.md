@@ -33,7 +33,7 @@ El DNI utiliza la congruencia módulo 23, es decir, se obtiene el dígito de con
 |   21  |   K   |
 |   22  |   E   |
 
-Por ejemplo, si el número del DNI es 12345678, al dividirlo entre 23, obtenemos un resto de 17. Entonces, la letra correspondiente en el array sería la letra "Q". Por lo tanto, la letra de validación del DNI completo sería "12345678-Q".
+Por ejemplo, si el número del DNI es 12345678, al dividirlo entre 23, obtenemos un resto de 14. Entonces, la letra correspondiente en el array sería la letra "Z". Por lo tanto, la letra de validación del DNI completo sería "12345678-Z".
 
 
 ## Descripción del Ejercicio
