@@ -1,26 +1,21 @@
-# Ejercicio práctico de JavaScript: "Adivina el número"
+# Ejercicio práctico de JavaScript:  Heladería "mitad y mitad"
 
-Este programa genera un número aleatorio entre 0 y 20 que el usuario debe adivinar. 
-El usuario tiene 5 oportunidades para adivinar el número. 
-Después de cada intento, el programa indicará si el número introducido es mayor o menor que el número a adivinar.
+En esta heladería especial, se ofrecen helados"mitad y mitad", donde cada mitad corresponde a un helado diferente del catálogo. Sin embargo, dado que el catálogo cambia constantemente, el número de combinaciones posibles también varía.
 
 
-## Instrucciones
+## Descripción del Ejercicio
 
-1. Descarga o clona este repositorio en local
-2. Abre el archivo 'index.html' en tu navegador web.
-3. Se generará un número aleatorio entre 0 y 20.
-4. Introduce un número entre 0 y 20 en la ventana de diálogo que aparece.
-5. Si el número introducido es igual al número generado, verás una ventana de alerta indicando que has ganado.
-6. Si el número introducido es diferente, recibirás una pista sobre si el número es mayor o menor que el generado.
-7. Tienes 5 oportunidades para adivinar el número.
-8. Si no logras adivinar el número en 5 intentos, recibirás una alerta indicando que has perdido.
+El objetivo del ejercicio es crear un función que recibe un catálogo de helados, y debe retornar un array con la lista de combinaciones posibles para los helados "mitad y mitad"
 
-¡Diviértete!
+Para una correcta ejecución del ejercicio se deben tener en cuenta las siguientes consideraciones:
+
+- Se debe evitar devolver helados con la misma combinación pero al revés. Por ejemplo, "vainilla y chocolate" es el mismo helado que "chocolate y vainilla", por lo que estas combinaciones deben evitarse.
+- Si ambas mitades de helado son iguales, no sería un helado "mitad y mitad", sino simplemente un helado normal.
 
 
-## Nota
+## Uso
 
-- Este programa utiliza ventanas de diálogo en el navegador para la interacción con el usuario.
-- Asegúrate de tener habilitadas las ventanas emergentes en tu navegador para que el programa funcione correctamente.
-
+1. Desarga o clona el repositorio.
+2. Abre  el archivo en tu editor de código.
+3. Ejecuta el archivo en un navegador web que permita la ejecuión de JavaScript
+4. Observa la salida en la consola.
