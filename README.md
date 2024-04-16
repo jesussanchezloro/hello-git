@@ -1,6 +1,7 @@
 # Ejercicio práctico de JavaScript:  Heladería "mitad y mitad"
 
-En esta heladería especial, se ofrecen helados"mitad y mitad", donde cada mitad corresponde a un helado diferente del catálogo. Sin embargo, dado que el catálogo cambia constantemente, el número de combinaciones posibles también varía.
+Este programa en JavaScript genera todas las posibles combinaciones de sabores de helado a partir de una lista dada.
+
 
 
 ## Descripción del Ejercicio
