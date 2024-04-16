@@ -1,18 +1,44 @@
-# Ejercicio práctico de JavaScript:  Heladería "mitad y mitad"
+# Ejercicio práctico de JavaScript:  Validador DNI español
 
-Este programa en JavaScript genera todas las posibles combinaciones de sabores de helado a partir de una lista dada.
+Este es un simple validador de números de identificación (DNI) españoles. Verifica si un número de DNI es válido utilizando la letra correspondiente.
 
+
+## Algoritmo de validación
+
+El DNI utiliza la congruencia módulo 23, es decir, se obtiene el dígito de control, la letra, a través del resto de dividir el número completo del DNI entre 23. En función de cual sea ese resto, se le asigna una letra específica de acuerdo a la siguiente tabla de equivalencias:
+
+| Resto | Letra |
+|-------|-------|
+|   0   |   T   |
+|   1   |   R   |
+|   2   |   W   |
+|   3   |   A   |
+|   4   |   G   |
+|   5   |   M   |
+|   6   |   Y   |
+|   7   |   F   |
+|   8   |   P   |
+|   9   |   D   |
+|   10  |   X   |
+|   11  |   B   |
+|   12  |   N   |
+|   13  |   J   |
+|   14  |   Z   |
+|   15  |   S   |
+|   16  |   Q   |
+|   17  |   V   |
+|   18  |   H   |
+|   19  |   L   |
+|   20  |   C   |
+|   21  |   K   |
+|   22  |   E   |
+
+Por ejemplo, si el número del DNI es 12345678, al dividirlo entre 23, obtenemos un resto de 17. Entonces, la letra correspondiente en el array sería la letra "Q". Por lo tanto, la letra de validación del DNI completo sería "12345678-Q".
 
 
 ## Descripción del Ejercicio
 
-El objetivo del ejercicio es crear un función que recibe un catálogo de helados, y debe retornar un array con la lista de combinaciones posibles para los helados "mitad y mitad"
-
-Para una correcta ejecución del ejercicio se deben tener en cuenta las siguientes consideraciones:
-
-- Se debe evitar devolver helados con la misma combinación pero al revés. Por ejemplo, "vainilla y chocolate" es el mismo helado que "chocolate y vainilla", por lo que estas combinaciones deben evitarse.
-- Si ambas mitades de helado son iguales, no sería un helado "mitad y mitad", sino simplemente un helado normal.
-
+El código utiliza un array predefinido con la tabla de equivalencia de letras que corresponden a los números de DNI. Luego, verifica si la letra del DNI proporcionada coincide con la letra esperada según el algoritmo de validación. Si hay algún error en el formato del DNI o si la letra es incorrecta, se lanzará un error.
 
 ## Uso
 
