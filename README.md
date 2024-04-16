@@ -1,19 +1,26 @@
-# Ejercicio práctico de JavaScript: "Reloj 'CUCÚ'"
+# Ejercicio práctico de JavaScript: "Adivina el número"
 
-Este ejercicio consiste en crear un programa que imprima en la consola una línea por cada hora del día en formato de 24 horas, de 0:00 a 23:00. 
-
-
-
-## Características
-
-- Si la hora es anterior a las 8 de la mañana o posterior a las 22, se imprimirá solo la información de la hora.
-- Si la hora está entre las 8 y las 22, se imprimirá la información de la hora seguida del emoji de un pájaro 🐦, con un número de pájaros correspondiente a la hora en formato 12h.
+Este programa genera un número aleatorio entre 0 y 20 que el usuario debe adivinar. 
+El usuario tiene 5 oportunidades para adivinar el número. 
+Después de cada intento, el programa indicará si el número introducido es mayor o menor que el número a adivinar.
 
 
-## Uso
+## Instrucciones
 
-1. Desarga o clona el repositorio.
-2. Abre  el archivo en tu editor de código.
-3. Ejecuta el archivo en un navegador web que permita la ejecuión de JavaScript
-4. Observa la salida en la consola.
+1. Descarga o clona este repositorio en local
+2. Abre el archivo 'index.html' en tu navegador web.
+3. Se generará un número aleatorio entre 0 y 20.
+4. Introduce un número entre 0 y 20 en la ventana de diálogo que aparece.
+5. Si el número introducido es igual al número generado, verás una ventana de alerta indicando que has ganado.
+6. Si el número introducido es diferente, recibirás una pista sobre si el número es mayor o menor que el generado.
+7. Tienes 5 oportunidades para adivinar el número.
+8. Si no logras adivinar el número en 5 intentos, recibirás una alerta indicando que has perdido.
+
+¡Diviértete!
+
+
+## Nota
+
+- Este programa utiliza ventanas de diálogo en el navegador para la interacción con el usuario.
+- Asegúrate de tener habilitadas las ventanas emergentes en tu navegador para que el programa funcione correctamente.
 
